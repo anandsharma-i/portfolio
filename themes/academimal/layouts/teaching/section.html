@@ -1,0 +1,18 @@
+{{ define "main" -}}
+{{ .Content }}
+    {{ range .Site.Data.teaching }}
+    <strong style="font-size: 22px;">{{ .university }}</strong>
+    {{ with .courses }}
+    {{ range . }}
+    <p>
+        <strong>{{ .title }}</strong><br>
+        {{ .term }} ,   {{ .students }}<br>
+        Role: {{ .role }}<br>
+        {{ if .achievement }}
+           Achievement : {{ .achievement }}
+        {{ end }}
+    </p>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+{{- end }}

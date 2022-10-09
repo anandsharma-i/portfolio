@@ -1,0 +1,102 @@
+conference:
+- title: "Poster: Coded Broadcast for Scalable Leader-Based BFT Consensus"
+  authors:
+    - Ioannis Kaklamanis
+    - Lei Yang
+    - Mohammad Alizadeh
+  book: "CCS"
+  date: "2022"
+  links:
+      - link: "/coded-hotstuff.pdf"
+        text: "Preprint"
+
+- title: "Longest Chain Consensus Under Bandwidth Constraint"
+  authors:
+    - Joachim Neu
+    - Srivatsan Sridhar
+    - Lei Yang
+    - David Tse
+    - Mohammad Alizadeh
+  book: "AFT"
+  date: "2022"
+  links:
+      - link: "https://github.com/yangl1996/synclc-sim"
+        text: "Code"
+
+- title: "DispersedLedger: High-Throughput Byzantine Consensus on Variable Bandwidth Networks"
+  authors:
+    - Lei Yang
+    - Seo Jin Park
+    - Mohammad Alizadeh
+    - Sreeram Kannan
+    - David Tse
+  book: "NSDI"
+  date: "2022"
+  links:
+      - link: "https://github.com/yangl1996/dispersed-ledger"
+        text: "Code"
+      - link: "https://www.youtube.com/watch?v=z7rC95kCGJ0"
+        text: "Talk"
+
+- title: "Securing Parallel-chain Protocols under Variable Mining Power"
+  authors:
+    - Xuechao Wang
+    - Viswa Virinchi Muppirala
+    - Lei Yang
+    - Sreeram Kannan
+    - Pramod Viswanath
+  book: "CCS"
+  date: "2021"
+  links:
+      - link: "https://github.com/yangl1996/blocksim"
+        text: "Code"
+
+- title: "High Throughput Cryptocurrency Routing in Payment Channel Networks"
+  authors:
+    - Vibhaalakshmi Sivaraman
+    - Shaileshh Bojja Venkatakrishnan
+    - Kathleen Ruan
+    - Parimarjan Negi
+    - Lei Yang
+    - Radhika Mittal
+    - Giulia Fanti
+    - Mohammad Alizadeh
+  book: "NSDI"
+  date: "2020"
+  links:
+      - link: "http://news.mit.edu/2020/spider-cryptocurrency-routing-efficiency-0130"
+        text: "MIT News"
+      - text: "Code"
+        link: "https://github.com/spider-pcn" 
+
+- title: "Prism: Scaling Bitcoin by 10,000x"
+  authors:
+    - Lei Yang
+    - Vivek Bagaria
+    - Gerui Wang
+    - Mohammad Alizadeh
+    - David Tse
+    - Giulia Fanti
+    - Pramod Viswanath
+  book: "Stanford Blockchain Conference"
+  date: "2020"
+  links:
+    - link: "https://github.com/yangl1996/prism-rust"
+      text: "Code"
+    - link: "https://www.youtube.com/watch?v=gTJyDtuWvUQ"
+      text: "Talk"
+    - link: "https://asciinema.org/a/YGz4dIkfKz4DrHLtVIGSfpmly"
+      text: "Demo"
+
+- title: "BackCam: Wireless Computer Vision Using Commodity Devices"
+  link: "https://dl.acm.org/citation.cfm?doid=3302506.3310403"
+  authors:
+    - Colleen Josephson
+    - Lei Yang
+    - Pengyu Zhang
+    - Sachin Katti
+  book: "IPSN"
+  date: "2019"
+  links:
+      - link: "https://github.com/cjosephson/backcam"
+        text: "Firmware, FPGA, PCB source"
