@@ -41,14 +41,7 @@
         </p>
         <!-- end physical location -->
 
-        <!-- begin openpgp public key -->
-        <p>
-          <img src="{{ "/icons/key-symbol.svg" | relURL }}" alt="OpenPGP:" class="octicons">
-            <a href="{{ .Site.Params.PGPPubkeyLink }}" target="_blank">
-                <span class="pgp-fingerprint"><span>{{- slicestr .Site.Params.PGPFingerprint 0 4 -}}</span><span>{{- slicestr .Site.Params.PGPFingerprint 4 8 -}}</span><span>{{- slicestr .Site.Params.PGPFingerprint 8 12 -}}</span><span>{{- slicestr .Site.Params.PGPFingerprint 12 16 -}}</span></span>
-            </a>
-        </p>
-        <!-- end openpgp public key-->
+
 
 
         </div>
