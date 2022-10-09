@@ -1,4 +1,5 @@
-baseURL = "https://anandsharma-i.github.io/portfolio"
+baseurl = "https://anandsharma-i.github.io/portfolio"
+canonifyurls = true
 relativeURLs = true
 title = "Soumyakant Padhee"
 theme = "academimal"
@@ -6,7 +7,7 @@ sectionPagesMenu = "main"
 defaultContentLanguage = "en"
 
 [author]
-name = "Lei Yang"
+name = "Soumyakant Padhee"
 homepage = "http://leiy.me/"
 
 [params]
