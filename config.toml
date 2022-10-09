@@ -1,3 +1,4 @@
+baseURL = "https://anandsharma-i.github.io/portfolio"
 relativeURLs = true
 title = "Soumyakant Padhee"
 theme = "academimal"
